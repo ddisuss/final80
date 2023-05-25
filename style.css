@@ -1,0 +1,115 @@
+body { 
+    background-image: url('https://scontent.fala4-1.fna.fbcdn.net/v/t39.30808-6/309478440_433414882211789_9189785190062792226_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=e3f864&_nc_ohc=McZGaMBfG50AX-vVwhG&_nc_ht=scontent.fala4-1.fna&oh=00_AfCmLqSFosgzb82jN0yBTaDQTjYfR6CEAJW3dEkoVsMOsg&oe=6473B3B4'); /* Путь к изображению фона */ 
+    background-repeat: no-repeat; /* Отключение повторения изображения */ 
+    background-size: fixed; /* Масштабирование изображения фона */ 
+    /* Дополнительные свойства фона, если необходимо */ 
+} 
+
+.salam { 
+    font-family: 'Anton', sans-serif; 
+    margin-top: 200px; 
+    font-weight: bold;
+    text-align: center; 
+    color: rgb(255, 123, 0); 
+ 
+} 
+ 
+.argument {
+  color: rgb(243, 198, 198);
+  text-align: center;
+  font-weight: bold;
+  
+}
+
+
+.chasha {
+  margin-top: -200px;
+  margin-left: -100px; 
+ z-index: 5;
+  }
+  
+  .marquee-container {
+    width: 100%;
+    overflow: hidden;
+    z-index: 3;
+  }
+  .moloko{
+    width: 1080px;
+  }
+  .marquee-line {
+    display: flex;
+  }
+  
+  .marquee-content {
+    position: relative;
+  animation: marquee 20s linear infinite;
+  white-space: nowrap;
+  z-index: 2;
+    font-family: 'Anton', sans-serif;
+    flex-direction: column;
+    z-index: 4;
+  }
+  
+  .marquee-text {
+    display: inline-block;
+    animation: marquee-text 20s linear infinite;
+    padding-left: 100%;
+    font-size: 36px; /* Увеличенный размер текста */
+    position: relative; /* Добавляем position: relative; для текста */
+    z-index: 2;
+  }
+  
+  @keyframes marquee {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-300%); }
+  }
+  
+  @keyframes marquee-text {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  
+   
+ 
+
+.custom-carousel {
+  width: 1200px;
+  height: 300px;
+}
+
+body {
+  background-color: #520101;
+}
+
+
+.zerno {
+  position: absolute;
+ width: 300px;
+ height: 300px;
+
+ 
+}
+
+.zerno1 {
+position: relative;
+  width: 300px;
+  height: 300px;
+  top: -300px;
+  transform: rotate(45deg);
+}
+
+.zerno3 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  top: -450px;
+  margin-left: 1600px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
